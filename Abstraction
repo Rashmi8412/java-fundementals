@@ -1,0 +1,55 @@
+package com.rashmitech.corejava.abstraction;
+
+public interface Scooty {
+	
+	int noofwheels();
+	int noofmirrors();
+	String name();
+	double price();
+
+}
+package com.rashmitech.corejava.abstraction;
+
+public class Honda extends AbstractScooty {
+
+	@Override
+	public String name() {
+		return "Honda Activa";
+	}
+
+	@Override
+	public double price() {
+		return 70000.00;
+	}
+
+}
+package com.rashmitech.corejava.abstraction;
+
+public class TVS extends AbstractScooty {
+	
+	@Override
+	public String name() {
+		return "TVS Jupiter";
+	}
+
+	@Override
+	public double price() {
+		return 60000.00;
+	}
+
+}
+package com.rashmitech.corejava.abstraction;
+
+public class Suzuki extends AbstractScooty {
+
+	@Override
+	public String name() {
+		return "Suzuki Access";
+	}
+
+	@Override
+	public double price() {
+		return 68000.00;
+	}
+
+}

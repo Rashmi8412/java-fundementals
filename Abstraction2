@@ -1,0 +1,28 @@
+package com.rashmitech.corejava.abstraction;
+
+public  abstract class AbstractScooty implements Scooty {
+	@Override
+	public int noofwheels() {
+		return 2;
+	}
+
+	@Override
+	public int noofmirrors() {
+		return 2;
+	}
+
+}
+package com.rashmitech.corejava.abstraction;
+
+public class ScootyMain {
+
+	public static void main(String[] args) {
+		Suzuki suzuki=new Suzuki();
+		int noofwheels =suzuki.noofwheels();
+		System.out.println(noofwheels);
+		int noofmirrors   =suzuki.noofwheels(  );
+		System.out.println(noofmirrors);
+
+	}
+
+}
