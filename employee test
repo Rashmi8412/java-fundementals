@@ -1,0 +1,27 @@
+package com.rashmitech.corejava.encapsulation;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Employee employee=new Employee(23,"vangala.rashmi@gmail.com");
+		int id=employee.getId();
+		System.out.println(id);
+		String emailid=employee.getEmailid();
+		System.out.println(emailid);
+		
+		
+	
+		employee.setFirstname("Rashmi");
+		System.out.println(employee.getFirstname());
+		employee.setLastname("Vangala");
+		System.out.println(employee.getLastname());
+		employee.setWorklocation("6thblock,4thfloor");
+		System.out.println(employee.getWorklocation());
+		employee.setSalary(500000.00);
+		System.out.println(employee.getSalary());
+
+		
+
+	}
+
+}

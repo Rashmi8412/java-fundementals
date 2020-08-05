@@ -1,0 +1,57 @@
+package com.rashmitech.corejava.encapsulation;
+
+public class Employee {
+	private int id;
+	private String firstname;
+	private String lastname;
+	private String worklocation;
+	private String emailid;
+	private double salary;
+	
+	public Employee(int id,String emailid) {
+		this.id=id;
+		this.emailid=emailid;
+		}
+
+	public int getId() {
+		return id;
+	}
+
+	public String getFirstname() {
+		return firstname;
+	}
+
+	public void setFirstname(String firstname) {
+		this.firstname = firstname;
+	}
+
+	public String getLastname() {
+		return lastname;
+	}
+
+	public void setLastname(String lastname) {
+		this.lastname = lastname;
+	}
+
+	public String getWorklocation() {
+		return worklocation;
+	}
+
+	public void setWorklocation(String worklocation) {
+		this.worklocation = worklocation;
+	}
+
+	public String getEmailid() {
+		return emailid;
+	}
+
+	public double getSalary() {
+		return salary;
+	}
+
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+}
+
+	
