@@ -1,0 +1,25 @@
+finalize():this is a method of Object class.it is used for cleanup processing just before the object is garbage collected.It overrides to dispose system resources,to perform cleanup activities and minimize memory leaks.
+
+package com.rashmitech.corejava.Object;
+
+public class FinalizeDemo {
+
+	public static void main(String[] args) {
+		        FinalizeDemo obj = new FinalizeDemo();   
+		         obj = null; 
+		        System.gc();
+		        System.out.println("end of garbage collection");   
+		  
+		    }   
+		    @Override  
+		    protected void finalize()   
+		    {   
+		        System.out.println("finalize method called");   
+		    }   
+
+	}
+	///end of garbage collection
+finalize method called
+	
+
+

@@ -1,0 +1,25 @@
+finally:this is used for block.this block is used to execute the important code.this block will execute the code whether an exception is handled or not.it is used to put "clean up"code such as closing file,closing connection.
+
+package com.rashmitech.exceptiondemo;
+
+public class Tryandcatch {
+
+	public static void main(String[] args) {
+try {
+	int[] arr=new int[]{3,4,5,6,7};
+	System.out.println(arr[2]);
+	System.out.println("this is valid array");
+	
+}
+catch(Exception e) {
+	System.out.println("this is invalid array");
+}
+finally {
+	System.out.println("this is finally block");
+}
+	}
+
+}
+///5
+this is valid array
+this is finally block

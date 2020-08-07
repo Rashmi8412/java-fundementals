@@ -1,0 +1,40 @@
+final:this is a keyword,which is used for class ,method and variable.final class has restrictions like it does not allow abstract classes and abstract methods.final method cannot override,final class cannot be inherited and final variable value cannot be changed.
+
+package com.rashmitech.corejava;
+
+public final class Finaldemo {
+	
+
+	public String righttovote() {
+		return "Indian right to vote";
+	}
+	
+	public void righttoequality() {
+		System.out.println("Indian equality");
+	}
+	
+	public static void righttofreedom() {
+		System.out.println("Indian right to freedom");
+	}
+	
+	public final void righttoreligion() {
+		System.out.println("Indian right freedom of religion");
+	}
+}
+package com.rashmitech.corejava;
+
+public class Mainfinal {
+
+	public static void main(String[] args) {
+		Finaldemo finaldemo=new Finaldemo();
+		finaldemo.righttofreedom();
+		finaldemo.righttoequality();
+		finaldemo.righttovote();
+		finaldemo.righttoreligion();
+}
+
+}
+///Indian right to freedom
+Indian equality
+Indian right freedom of religion
+
