@@ -1,0 +1,13 @@
+package com.rashmitech.corejava.polymorphism;
+
+public class Chirumain {
+
+	public static void main(String[] args) {
+		Chiranjeevi chiru=new Ramcharan();
+		System.out.println(chiru.profeesion());
+		System.out.println(chiru.noofsongs());
+		System.out.println(chiru.assests());
+
+	}
+
+}

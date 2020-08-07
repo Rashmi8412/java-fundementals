@@ -1,0 +1,15 @@
+package com.rashmitech.corejava.polymorphism;
+
+
+public class Ramcharan extends Chiranjeevi {
+	public String profeesion(){
+		return "Acting+production";
+	}
+	public int noofmovies() {
+		return 5;
+	}
+	public double assests() {
+		return 2500000.000;
+	}
+
+}
