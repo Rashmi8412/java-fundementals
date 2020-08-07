@@ -1,0 +1,14 @@
+package com.rashmitech.corejava.polymorphism;
+
+public class Chiranjeevi {
+	public String profeesion(){
+		return "Acting";
+	}
+	protected int noofsongs() {
+		return 500;
+	}
+	public double assests() {
+		return 2000000.000;
+	}
+
+}
